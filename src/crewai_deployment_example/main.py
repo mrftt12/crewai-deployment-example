@@ -5,7 +5,7 @@ from flask import Flask, request, jsonsify
 
 app = Flask(__name__)
 
-@app.rount('/run', methods=['POST'])
+@app.route('/run', methods=['POST'])
 def run():
     """
     Run the crew.
